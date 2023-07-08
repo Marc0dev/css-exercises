@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .profile-image {
@@ -45,4 +49,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  /* This sets a margin on the right, we could also have written justify-content: space between; (on .header) and grup the two right elements */
+  margin: 0 auto 0 0;
+  padding: 0;
+  gap: 12px;
 }
